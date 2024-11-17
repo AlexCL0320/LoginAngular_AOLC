@@ -19,7 +19,7 @@ import { MatPaginatorIntl } from '@angular/material/paginator';
 })
 export class UsuariosListaComponent implements OnInit {
   users: any[] = [];
-  displayedColumns: string[] = ['nombre', 'email', 'telefono', 'direccion', 'contraseñas'];
+  displayedColumns: string[] = ['nombre', 'email', 'telefono', 'direccion', 'contraseñas', 'Imagen'];
   dataSource = new MatTableDataSource<any>(this.users);
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;

@@ -1,0 +1,16 @@
+.footerr{
+    color:azure;
+    background-color: #151b23;
+    border-radius: -20px;
+    font-size: 14px;
+    margin-top: -3.5%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.mat-card-content{
+color: azure;
+background-color: #151b23;
+
+}

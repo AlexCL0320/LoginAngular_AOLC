@@ -1,0 +1,29 @@
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>home</mat-icon> <!-- Cambiado a "home" -->
+      <span>Inicio</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>contact_support</mat-icon> <!-- Cambiado a "mail" -->
+      <span>Acerca de </span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>notifications</mat-icon> <!-- Cambiado a "notifications" -->
+      <span>Notiificaciones</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>fingerprint</mat-icon> <!-- Cambiado a "notifications" -->
+      <span>Reconocimiento</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>events</mat-icon> <!-- Cambiado a "notifications" -->
+      <span>Eventos</span>
+    </button>
+    <button mat-menu-item (click)="login()"> 
+      <mat-icon>exit_to_app</mat-icon> <!-- Cambiado a "notifications" -->
+      <span>Salir</span>
+    </button>
+  </mat-menu>

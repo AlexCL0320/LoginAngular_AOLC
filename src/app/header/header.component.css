@@ -1,0 +1,12 @@
+.header{
+    color:azure;
+    background-color: #151b23;
+    border-radius: -10px;
+    font-size: 12px;
+    margin-top: -0.5%;
+    padding-bottom: -4%;
+}
+
+.mat-card-content{
+color: azure;
+}

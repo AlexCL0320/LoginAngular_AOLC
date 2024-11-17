@@ -1,0 +1,16 @@
+.content{
+  margin-left: 12%; 
+  background-color: #212830; 
+  color: mintcream;
+  border-radius: 10px; 
+  margin-bottom: 5%; 
+  margin-right: 2%; 
+  margin-top: 2%; 
+  display:flex; 
+  justify-content: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border: black;
+  min-height: calc(100vh - 50px); /* Ajusta 50px al tamaño del footer */
+  padding-bottom: 50px; /* Evita que el contenido sobrepase el footer */
+
+}
